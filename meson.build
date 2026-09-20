@@ -14,6 +14,7 @@ add_project_arguments(
 
 src = files(
   'src/main.c',
+  'src/token.c',
 )
 
 inc = include_directories('src')
